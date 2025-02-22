@@ -1,1 +1,1 @@
-The sum of squares is: 29
+Enter your score: Your Grade is: F
