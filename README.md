@@ -92,7 +92,6 @@ Only perform this if this is the first time you will setup your Git Environment
    Enter your score: 85
    Your Grade is: B
    ```
-   (Since 2² + 3² + 4² = 4 + 9 + 16 = 29)
    
    **Notable Observations:**
    - Function Decomposition: The problem is divided into two distinct functions (get_student_score and calculate_grade), promoting modularity and code reusability.
