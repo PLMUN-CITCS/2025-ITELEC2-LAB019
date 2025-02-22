@@ -7,17 +7,20 @@ def get_student_score():
 
 def calculate_grade(score):
     """Calculates the grade based on the provided score."""
-
+    grade = ''
+    
     if score >= 90:
-        return 'A'
+        grade = 'A'
     elif score >= 80:
-        return 'B'
+        grade = 'B'
     elif score >= 70:
-        return 'C'
+        grade = 'C'
     elif score >= 60:
-        return 'D'
+        grade = 'D'
     else:
-        return 'F'
+        grade = 'F'
+
+    return grade
 
 
 # Main program flow
