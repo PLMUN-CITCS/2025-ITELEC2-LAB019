@@ -24,6 +24,4 @@ def calculate_grade(score):
 
 
 # Main program flow
-score = get_student_score()
-grade = calculate_grade(score)
-print("Your Grade is:", grade)
+print("Your Grade is:", calculate_grade(get_student_score()))
